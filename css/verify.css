@@ -1,0 +1,35 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+input[type="hidden"] {
+    display: none;
+}
